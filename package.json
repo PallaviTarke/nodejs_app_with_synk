@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app with GitLab CI/CD and Snyk Code",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+}
